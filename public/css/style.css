@@ -1,0 +1,280 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+div#container{
+    align-items: center;
+    min-height: 110%;
+}
+
+div#showcase{
+    height: 90vh;
+    width: 100%;
+    background-image: url('../../img/nissan.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+div#showcase:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.06);
+    z-index: 1;
+}
+
+div#showcase-content{
+    padding: 0px 0px 200px 0px;
+    margin: 0px 300px 10px 300px;
+    text-align: center;
+    z-index: 2;
+}
+div#showcase-content h1{
+    margin: 0;
+    padding-bottom: 20px;
+    line-height: 1;
+    color: white;
+    font-size: 80px;
+}
+
+div#menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6vh;
+    background-color:rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+div#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+div#menu li{
+    position: relative;
+    justify-content: space-around;
+}
+
+div#menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+
+div#main{
+    width: 100%;
+    float: left;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+div#main-content{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(50, 50, 50);
+    box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+div#main-content-sort{
+    height: 8%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: white;
+}
+
+div#main-content-sort h4{
+    text-align: left;
+    justify-content: center;
+    padding-left: 50px;
+    font-size: 26px;
+}
+
+div#posts{
+    display: flex;
+    max-height: 180vh;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+div#posts::-webkit-scrollbar {
+    display: none; /* Ukryj pasek przewijania */
+}
+
+.post{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 90vh;
+    max-height: fit-content;
+}
+
+.post-img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.post-content{
+    background-color: white;
+    color: black;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post-content h1{
+    padding-top: 40px;
+    font-size: xx-large;
+}
+
+.post-content h2{
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.post-content h3{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.post-content p{
+    width:60%;
+    font-size: 16px;
+    margin: 0 auto; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.visible{
+    display: block;
+}
+
+div#addPost{
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.addPostForm{
+    display: flex;
+    flex-direction: row;
+}
+
+div#addPost-left{
+    display: block;
+    float: left;
+
+}
+div#addPost-right{
+    display: block;
+    float: left;
+}
+
+
+div#footer{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(90, 90, 90);
+    bottom: 0;
+    z-index: 10;
+}
+div#footer p{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.btn-start{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    height: 60px;
+}
+
+.btn-start:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.6);
+}
+
+#category-select {
+    padding: 8px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 16px;
+
+}
+
+#category-select:focus {
+    outline: none;
+    border-color: black;
+}
+
+.comments-section{
+    background-color: white;
+}
+
+.comment{
+    background-color: white;
+}

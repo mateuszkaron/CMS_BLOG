@@ -1,0 +1,103 @@
+body{
+    background-image: linear-gradient(to right, rgba(0, 119, 255, 0.5), rgba(169, 169, 169, 0.5)), url('../../img/interior.jpg');
+    background-size: cover;
+
+}
+
+.login {
+    margin: auto;
+    padding: 2rem;
+    height: auto; 
+    width: 30%;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.login h1 {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.login input[type="text"],
+.login input[type="email"],
+.login input[type="password"] {
+    width: 80%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #333;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: border-color 0.3s ease;
+}
+
+.login input[type="text"]:focus,
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+    border-color: rgb(0, 208, 255);
+    box-shadow: 0 0 8px rgba(0, 119, 255, 0.5);
+}
+
+.login input[type="submit"] {
+    width: 85%;
+    padding: 1rem;
+    border: none;
+    background-color: rgb(0, 208, 255);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login input[type="submit"]:hover {
+    background-color: rgb(0, 208, 255);
+}
+
+.login input[type="submit"]:active {
+    background-color: rgb(0, 208, 255);
+}
+
+.submit{
+    font-size: larger;
+    padding: auto;
+    border-radius: 25px;
+    box-shadow: 0 0 10px black;
+    background-color: grey;
+}
+
+.home-button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 208, 255);
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: rgb(0, 208, 255);
+}
+
+.error-message {
+    color: red;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}

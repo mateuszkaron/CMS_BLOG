@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.user-list,
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list-item,
+.post-list-item {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-list-item form,
+.post-list-item form {
+    display: inline;
+}
+
+.user-list-item button,
+.post-list-item button,
+.user-list-item a,
+.post-list-item a {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.user-list-item button:hover,
+.post-list-item button:hover,
+.user-list-item a:hover,
+.post-list-item a:hover {
+    background: #555;
+}
+
+.user-list-item select,
+.post-list-item select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-list-item-actions {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
