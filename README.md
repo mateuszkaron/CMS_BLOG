@@ -22,9 +22,9 @@ Post edit.
 
 ADMINISTARTION PANEL
 Here you can akcept new users.
-![image](https://github.com/user-attachments/assets/72a42798-bf45-47e6-a954-0e2512c4f71e)
 Options for managing users.
-![image](https://github.com/user-attachments/assets/5cbf31d7-249f-4fe9-bd99-5ae33b76b86b)
+![Uploading image.png…]()
+
 
 ![image](https://github.com/user-attachments/assets/511ee143-6e5c-4602-8dd6-8ce082a6f388)
 
