@@ -1,4 +1,4 @@
-#CMS BLOG
+# CMS BLOG
 ## Main project assumption was about working cms. Not about how it looks.
 ![image](https://github.com/user-attachments/assets/c0f26f19-386f-4638-98b8-4c25b436aa01)
 ## How posts looks.
