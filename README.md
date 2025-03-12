@@ -23,9 +23,7 @@ Post edit.
 ADMINISTARTION PANEL
 Here you can akcept new users.
 Options for managing users.
-![Uploading image.png…]()
-
-
+![image](https://github.com/user-attachments/assets/668084d2-9d93-41ba-a8ee-93d3ba7ca3d9)
 ![image](https://github.com/user-attachments/assets/511ee143-6e5c-4602-8dd6-8ce082a6f388)
 
 Contact us panel where messages goes to administation panel 
