@@ -1,6 +1,5 @@
 # CMS BLOG
-## Main project assumption was about working cms. Not about how it looks.
-## Fully functional CMS with Users/Admins, Post/Comments, Image upload with custom made reCaptcha
+## Main project assumption was about working cms. Not about how it looks.<br> Fully functional CMS with Users/Admins, Post/Comments, Image upload with custom made reCaptcha!
 ![image](https://github.com/user-attachments/assets/c0f26f19-386f-4638-98b8-4c25b436aa01)
 ## How posts looks.
 ![image](https://github.com/user-attachments/assets/a8ff0d0c-a14d-4b50-ba7b-4286fc8552c9)
